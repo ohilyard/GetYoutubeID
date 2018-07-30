@@ -16,7 +16,6 @@ xmlhttp.onreadystatechange = function () {
     }
 };
 
-sleep(100)
 xmlhttp.open("GET", 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBeAOoMJFgVDn2BRxYq_aLpj_AO082P0Lk&channelId=UCEbhcRbn4hVT2mNlmr0XxCg&part=id&order=date&maxResults=20&type=js', true);
 xmlhttp.send();
 sleep(100)
